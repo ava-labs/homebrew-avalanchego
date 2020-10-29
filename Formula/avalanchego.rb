@@ -1,4 +1,5 @@
 class Avalanchego < Formula
+  version "1.0.3"
   desc "Avalanchego Binaries"
   homepage "https://www.ava-labs.org"
   url "https://ava-package-repos.s3-us-west-2.amazonaws.com/macos/avalanchego-macos-v1.0.3.zip"
