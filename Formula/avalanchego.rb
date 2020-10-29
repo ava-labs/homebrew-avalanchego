@@ -6,6 +6,8 @@ class Avalanchego < Formula
   sha256 "f453a54c9683724025191c4abb95ffab023481b07711783036397fa544288bf4"
   license "BSD-3-Clause"
 
+  bottle :unneeded
+
   def install
     bin.install "build/avalanchego" => "avalanchego"
     bin.install "build/plugins/evm" => "evm"
