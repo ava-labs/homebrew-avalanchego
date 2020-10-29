@@ -12,7 +12,7 @@ class Avalanchego < Formula
   end
 
   test do
-    system "false"
+    system "#{bin}/avalanchgego", "--version"
   end
 end
 
